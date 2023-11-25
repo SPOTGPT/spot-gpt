@@ -1,0 +1,33 @@
+{
+    "id": "chatcmpl-8OJkK6LqislQS8SeGujgnBaJOuah6",
+    "choices": [
+        {
+            "finish_reason": "tool_calls",
+            "index": 0,
+            "message": {
+                "content": null,
+                "role": "assistant",
+                "function_call": null,
+                "tool_calls": [
+                    {
+                        "id": "call_egSuzGT0z30aP49s0Gd7ozyO",
+                        "function": {
+                            "arguments": "{\n  \"action\": \"power-on\"\n}",
+                            "name": "action"
+                        },
+                        "type": "function"
+                    }
+                ]
+            }
+        }
+    ],
+    "created": 1700806468,
+    "model": "gpt-3.5-turbo-0613",
+    "object": "chat.completion",
+    "system_fingerprint": null,
+    "usage": {
+        "completion_tokens": 15,
+        "prompt_tokens": 100,
+        "total_tokens": 115
+    }
+}
